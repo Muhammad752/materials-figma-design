@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Materials</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="top">
+            <h1 class="top__logo"><a href="./index.html">Ткани</a></h1>
+            <p class="top__location"><img src="./assets/imgs/location.svg" alt=""> Санкт-Петербург</p>
+            <input class="top__input" type="text" placeholder="Я ищу">
+            <div class="top__contacts">
+                <h5><a href="tel:+8 800 900 70 90">8 800 900 70 90</a></h5>
+                <small class="text-end">Пн-вс: 10:00 - 21:00</small>
+            </div>
+            <div class="top__pics">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-user"></i>
+                <p><img src="./assets/imgs/bag shopping.png" alt=""> 12</p>
+            </div>
+            <label class="burger" for="check"><i class="fa-solid fa-bars"></i></label>
+        </div>
+        <input style="display: none;" type="checkbox" name="" id="check">
+        <label class="cover" for="check"></label>
+        <nav class="navbar">
+                <li class="navbar__item active"><a href="#"></a>Для одежды</li>
+                <li class="navbar__item"><a href="#"></a>Для интерьера</li>
+                <li class="navbar__item"><a href="#"></a>Мебельные</li>
+                <li class="navbar__item"><a href="#"></a>Фурнитура</li>
+                <li class="navbar__item"><a href="#"></a>Пряжа</li>
+                <li class="navbar__item"><a href="#"></a>Новогодние</li>
+                <li class="navbar__item"><a href="#"></a>Для шитья</li>
+                <div class="nav-hidden nav-hidden-text text-start">
+                    <p><i class="fa-solid fa-location-dot"></i> Санкт-Петербург</p>
+                    <p><i class="fa-solid fa-phone"></i><a href="tel:+8 800 900 70 90"> 8 800 900 70 90</a></p>
+                    <p><i class="fa-solid fa-clock"></i> Пн-вс: 10:00 - 21:00</p>
+                </div>
+                <div class="nav-hidden nav-hidden-imoji">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-user"></i>
+                    <p><img src="./assets/imgs/bag shopping.png" alt=""> 12</p>
+                </div>
+        </nav>
+        </div>
+    </header>
+    <div class="navigation">
+        <div class="container">
+            <p>
+                <i class="fa-solid fa-house-user"></i>
+                <span>Главная </span>\
+                <span>Каталог товаров</span>\
+                <span>Каталог товаров</span>
+            </p>
+        </div>
+    </div>
+    <div class="selected">
+        <section class="item">
+            <div class="container d-flex">
+            <div class="left-child">
+                <img class="item__main" src="./assets/imgs/selected.png" alt="">
+                <div class="item__types d-flex justify-content-between overflow-hidden">
+                    <img src="./assets/imgs/t1.png" alt=""><img src="./assets/imgs/t2.png" alt=""><img src="./assets/imgs/t3.png" alt=""><img src="./assets/imgs/t4.png" alt=""><img src="./assets/imgs/t5.png" alt=""><img src="./assets/imgs/t6.png" alt="">
+                </div>
+                <div class="warning d-flex">
+                    <img src="/assets/imgs/exclamation-circle.png" alt="">
+                    <p>Обращаем Ваше внимание, что цвет товара может меняться, в зависимости от
+                        настроек Вашего монитора</p>
+                </div>
+                <img src="./assets/imgs/video preload.png" alt="">
+            </div>
+            <div class="right-child">
+                <div>
+                <h4 class="sec-top">Холст полотенечный жаккард "Домики"
+                    цв.бордо/серый, ш.0.5м, лен-30%,
+                    хлопок-70%, 210гр/м.кв</h4>
+                    <p>Артикул 019832</p>
+                </div>
+                    <hr>
+                    <div class="selector d-flex gap-5">
+                        <div class="contains">
+                            <div>
+                            <h5>Состав</h5>
+                            <p>лен-30%, хлопок-70%</p>
+                            </div>
+                            <div>
+                            <h5>Ширина</h5>
+                            <p>0.5м</p>
+                            </div>
+                            <div>
+                            <h5>Плотность</h5>
+                            <p>210гр/м.кв</p>
+                            </div>
+                            <div>
+                            <h5>Страна <br> производитель</h5>
+                            <p>Россия</p>
+                            </div>
+                        </div>
+                        <div class="select">
+                            <div>
+                            <p class="h5">Выбор цвета</p>
+                            <div class="colors">
+                                <span class="purple"></span>
+                                <span class="carrot"></span>
+                                <span class="yellow"></span>
+                            </div>
+                            </div>
+                            <div>
+                            <div class="price">
+                                <p><span class="actual">240 ₽ / м</span><span class="previo">360 ₽ / м</span></p>
+                            </div>
+                            <div class="counter d-flex align-items-center">
+                                <i class="fa-solid fa-plus"></i>
+                                <p>0,1 м</p>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <div class="cost">
+                                <div>
+                                    <p>Остаток</p>
+                                    <h6>131.9 м</h6>
+                                </div>
+                                <div>
+                                    <p>Стоимость</p>
+                                    <h6>16 руб</h6>
+                                </div>
+                            </div>
+                            </div>
+                            <div>
+                            <button class="main-buy">В корзину</button>
+                            <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Медиапланирование осмысленно индуцирует конкурент. Представляется логичным, что потребление традиционно усиливает целевой сегмент рынка, отвоевывая рыночный сегмент. Личность топ менеджера традиционно экономит комплексный имидж. Рыночная информация масштабирует креативный побочный PR-эффект. Российская специфика определяет пак-шот. Согласно предыдущему, креатив усиливает фактор коммуникации.
+                    <p class="color">Читать полное описание
+                    </p>
+                    </p>
+                    <div class="colored">
+                        <div class="d-flex">
+                            <div>
+                                <img src="./assets/imgs/color-palette (Traced).png" alt="">
+                                <p>С этой тканью  сочетаются </p>
+                            </div>
+                            <div>
+                                <img src="./assets/imgs/fabric (Traced).png" alt="">
+                                <p>Товары из раздела  лен и полулен</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </section>
+
+
+
+    </div>
+    <section class="collect">
+        <h2 class="display-1 text-center">Подбор фурнитуры</h2>
+        <div class="select">
+            <div class="active">
+                <img src="./assets/imgs/thread (Traced).png" alt="">
+                <p>Нитки</p>
+            </div>
+            <div>
+                <img src="./assets/imgs/button (Traced).png" alt="">
+                <p>Пуговицы</p>
+            </div>
+            <div>
+                <img src="./assets/imgs/zip (Traced).png" alt="">
+                <p>Молнии</p>
+            </div>
+            <div>
+                <img src="./assets/imgs/thread (1) (Traced).png" alt="">
+                <p>Тесьма</p>
+            </div>
+        </div>
+        <div class="container d-flex">
+            <div class="card"><img src="./assets/imgs/f1-1.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card"><img src="./assets/imgs/f1-2.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card"><img src="./assets/imgs/f1-3.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card"><img src="./assets/imgs/f4.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="divider">
+        <div class="container d-flex">
+            <div>
+                <img src="./assets/imgs/cut (Traced).png" alt="">
+                <div class="text"><h6>Режем ткань от 30 см</h6><p>с шагом в 10 см. Тесьму и кружево <br>режем от 1 метра</p></div>
+            </div>
+            <div>
+                <img src="./assets/imgs/note 1 (Traced).png" alt="">
+                <p>Нет ограничений <br>
+                    по минимальному заказу
+                    </p>
+            </div>
+            <div>
+                <img src="./assets/imgs/package (Traced).png" alt="">
+                <p>Доставим товар <br>
+                    в любую точку мира</p>
+            </div>
+        </div>
+    </section>
+    <section class="rates">
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Отзывы
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        вопросы
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="share">Поделитесь в соц сетях и получите скидку 5%</div>
+        </div>
+    </section>
+    <section class="also">
+        <h2 class="text-center section-header">С этим товаром покупают</h2>
+        <div class="container n1 d-flex">
+            <div class="card"><img src="./assets/imgs/f1-1.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card"><img src="./assets/imgs/f1-2.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card"><img src="./assets/imgs/f1-3.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card"><img src="./assets/imgs/f4.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container n2 d-flex">
+            <div class="card"><img src="./assets/imgs/f1-5.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card"><img src="./assets/imgs/f1-6.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card"><img src="./assets/imgs/f1-7.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card"><img src="./assets/imgs/f1-8.png" alt="" class="card-img">
+                <div class="card-body">
+                    <p class="card-subtitle">
+                        Рогожка
+                    </p>
+                    <h4 class="card-title">
+                        Альпийская деревенька
+                    </h4>
+                    <li><strong>Ширина</strong> 1.5 м</li>
+                    <li><strong>Состав</strong> 100%</li>
+                    <li><strong>Плотность</strong> 170 гр/м2</li>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p><span class="h5">240 ₽</span> <span class="h6">360 ₽</span></p>
+                        <p class="buy"><a href="">В корзину</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe container">
+        <div class="text">
+            <h1>Подпишитесь на рассылку</h1>
+            <p>Будьте в курсе наших акций</p>
+        </div>
+        <div>
+            <div><input placeholder="Ваша почта" type="text"> <button>Подписаться &longrightarrow;</button></div>
+            <p><small>Нажимая кнопку, вы даете согласие на обработку ваших персональных данных в соответствии с Политикой Конфиденциальности</small></p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+        <div class="footer__left">
+            <div>
+                <h6>Наши контакты</h6>
+                <a class="contacts" href="tel:+8 800 900 70 90">8 800 900 70 90</a>
+                <address>г. Орск Проспект Ленина 71 / А</address>
+                <p>Пн-вс: 10:00 - 21:00 <br> без выходных</p>
+                <div class="social">
+                    <a href=""><img src="./assets/imgs/instagram brand.svg" alt=""></a>
+                    <a href=""><img src="./assets/imgs/vk brand.svg" alt=""></a>
+                </div>
+                <p class="subline">Политика конфиденциальности</p>
+            </div>
+            <div class="payMethods">
+                <h6>Способы оплаты</h6>
+                <a href="">
+                    <img src="./assets/imgs/Visa.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/imgs/PayPal.png" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/imgs/MasterCard.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="w-100 footer__right" style="position:relative;overflow:hidden;"><a href="https://yandex.com/maps/10335/tashkent/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Tashkent</a><a href="https://yandex.com/maps/geo/771288885/?from=mapframe&ll=69.290194%2C41.294543&utm_medium=mapframe&utm_source=maps&z=11.38" style="color:#eee;font-size:12px;position:absolute;top:14px;">Tashkent — Yandex Maps</a><iframe src="https://yandex.com/map-widget/v1/-/CCURJ2GmCD" width="100%" height="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    </footer>
+    <script src="./bootstrap/bootstrap.js"></script>
+</body>
+</html>
